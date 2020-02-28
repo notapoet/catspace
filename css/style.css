@@ -1,0 +1,37 @@
+html,body,header, #about{
+	height: 100%;
+}
+
+#about{
+	background: url(../img/preview.jpg) no-repeat center center fixed;
+	/* картинка по ширине блока */
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.top-nav-collapse{
+	background-color: #2D2D2D;
+}
+
+/* навбар не меняет цвет при уменьшении размера страницы до 768 */
+@media(max-width: 768px) {
+	.navbar:not(.top-nav-collapse){
+		background: #2D2D2D;
+	}
+}
+
+.btn.btn-lg {
+    padding: 1rem 2.4rem;
+    font-size: .94rem;
+    width: 40%;
+}
+
+#Necessaryinfo {
+	background-color: #2D2D2D;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+#Rules, #Privacy, #Contacts {
+	font-size: 13px;
+}

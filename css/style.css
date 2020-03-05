@@ -2,6 +2,40 @@ html,body,header, #about{
 	height: 100%;
 }
 
+html,body,header, #important{
+	height: 100%;
+}
+
+html,body,header, #signup {
+	height: 100%;
+}
+
+#navImportant {
+	background-color: #2D2D2D;
+}
+
+.block-left {
+	width:40%;
+	height:800px;
+	overflow:auto;
+	float:left;
+}
+
+.block-right {
+	width:60%;
+	height:800px;
+	overflow:auto;
+	float:right;
+	margin-top: 130px;
+}
+
+
+#signup {
+	background: url(../img/signupimg.jpg) no-repeat;
+	/* картинка по ширине блока */
+	-webkit-background-size: cover;
+	background-size: cover;
+}
 #about{
 	background: url(../img/preview.jpg) no-repeat center center fixed;
 	/* картинка по ширине блока */
